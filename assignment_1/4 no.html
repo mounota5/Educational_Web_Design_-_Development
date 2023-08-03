@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Details</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 24px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    th {
+      text-align: right;
+      background-color: lightblue;
+      padding: 8px;
+    }
+
+    td {
+      padding: 8px;
+    }
+
+    #college-logo {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 250px;
+      height: 128px;
+      background-image: url('logo1.png');
+      background-size: cover;
+      background-position: center;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div id="college-logo"></div>
+  <h1>Personal Details</h1>
+  <table>
+    <tr>
+      <th>Name:</th>
+      <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+      <th>Class:</th>
+      <td><input type="text" name="class"></td>
+    </tr>
+    <tr>
+      <th>Qualifications:</th>
+      <td><textarea name="qualifications" rows="4" cols="30"></textarea></td>
+    </tr>
+    <tr>
+      <th>Photo:</th>
+      <td><input type="file" name="photo"></td>
+    </tr>
+    <tr>
+      <th>Address:</th>
+      <td><textarea name="address" rows="4" cols="30"></textarea></td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      padding-top: 80px;
+      padding-bottom: 50px;
+    }
+
+    .left-column {
+      flex: 8;
+      padding: 20px;
+      overflow-y: scroll;
+    }
+
+    .right-column {
+      flex: 2;
+      background-color: #f2f2f2;
+      padding: 20px;
+      position: fixed;
+      top: 80px;
+      right: 0;
+      bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navigation {
+      background-color: #007BFF;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    h2 {
+      color: #007BFF;
+      margin-top: 0;
+    }
+
+    h3 {
+      margin: 5px 0;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+
+    .education {
+      background-color: #28a745;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MST. MASUMA AKTER MOUNOTA</h1>
+  </header>
+  <br><br><br>
+  <div class="container">
+    <div class="left-column">
+      <h2>Personal Details</h2>
+      <h3>Name:</h3>
+      <p>Mst. Masuma Akter Mounota</p>
+      <h3>Date of Birth:</h3>
+      <p>01-Feb-2000</p>
+      <h3>Gender:</h3>
+      <p>Female</p>
+      <h3>Material Status:</h3>
+      <p>Married</p>
+      <h3>Nationality:</h3>
+      <p>Bangladeshi</p>
+      <h3>Present Address:</h3>
+      <p>Latifpur, BDU Girls Hostel, Kaliakair, Gazipur</p>
+      <h3>Permanent Address:</h3>
+      <p>Thanapara, Chilmari, Kurigram</p>
+      <br><br><br>
+      <h2>Family Information</h2>
+      <h3>Father's Name:</h3>
+      <p>Md. Shamser Ali</p>
+      <h3>Occupation:</h3>
+      <p>Principal, Alim Madrasha</p>
+      <h3>Mother's Name:</h3>
+      <p>Mst. Sahanaz Begum</p>
+      <h3>Occupation:</h3>
+      <p>House Wife</p>
+      <br><br>
+      <h2>Educational Information</h2>
+      <div class="education">
+        <h3>SSC:</h3>
+        <p>Institute: Thanahat Girls High School, Chilmari</p>
+        <p>Result: GPA 5 Out Of 5</p>
+        <p>Group: Science</p>
+        <p>Board: Dinajpur</p>
+      </div>
+      <div class="education">
+        <h3>HSC:</h3>
+        <p>Institute: Police lines school and college, Rangpur</p>
+        <p>Result: GPA 5 Out Of 5</p>
+        <p>Group: Science</p>
+        <p>Board: Dinajpur</p>
+      </div>
+      <div class="education">
+        <h3>Undergraduate:</h3>
+        <p>Institute: Bangabandhu Sheikh Mujibur Rahman Digital University, Bangladesh</p>
+        <p>Result: GPA 3.2 Out Of 4</p>
+        <p>Department: Educational Technology</p>
+        <br>
+      </div>
+    </div>
+
+    <div class="right-column">
+      <div class="image-container">
+        <img src="mounota.jpg" alt="Mounota" width="200px" height="200px">
+      </div>
+      <div class="navigation">
+        <h2>Navigation</h2>
+        <ul>
+          <li><a href="#personal">Personal Details</a></li>
+          <li><a href="#family">Family Information</a></li>
+          <li><a href="#education">Educational Information</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Contact: mounotatasnim5@gmail.com</p>
+  </footer>
+</body>
+</html>

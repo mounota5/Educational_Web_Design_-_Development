@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Country Capitals</title>
+</head>
+<body>
+  <h2>Select a Country:</h2>
+  <select id="countrySelect" onchange="showCapital()">
+    <option value="">Select a country...</option>
+    <option value="usa">USA</option>
+    <option value="uk">UK</option>
+    <option value="france">France</option>
+    <option value="germany">Germany</option>
+    <option value="japan">Japan</option>
+  </select>
+
+  <p id="capitalDisplay"></p>
+
+  <script>
+    function showCapital() {
+      const selectBox = document.getElementById("countrySelect");
+      const selectedValue = selectBox.value;
+      const capitalDisplay = document.getElementById("capitalDisplay");
+
+      if (selectedValue === "") {
+        capitalDisplay.textContent = ""; // Clear the display if no country is selected
+      } else {
+        const countryCapitals = {
+          USA: "Washington, D.C.",
+          UK: "London",
+          BANGLADESH: "DHAKA",
+          GERMANY: "Berlin",
+          JAPAN: "Tokyo"
+        };
+
+        capitalDisplay.textContent = `Capital: ${countryCapitals[selectedValue]}`;
+      }
+    }
+  </script>
+</body>
+</html>

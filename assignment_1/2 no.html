@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+    }
+
+    #left-frame {
+      width: 20%;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+
+    #center-frame {
+      width: 60%;
+      padding: 10px;
+    }
+
+    #right-frame {
+      width: 20%;
+      padding: 10px;
+      background-color: #f0f0f0;
+    }
+
+    audio,
+    video {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="left-frame">
+    <!-- Contents of the left frame go here -->
+    <h2>Contents</h2>
+    <ul>
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div id="center-frame">
+    <!-- Body of the page goes here -->
+    <h1>Welcome to our website!</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+      Maecenas vehicula diam vel lacus dignissim, quis congue nisi venenatis.
+      Proin at odio a purus dictum dignissim. Donec maximus dictum metus,
+      nec suscipit nisl scelerisque vitae.
+    </p>
+
+    <!-- Embedded Audio -->
+    <h2>Audio Example</h2>
+    <audio controls>
+      <source src="https://www.example.com/audio/sample.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+
+    <!-- Embedded Video -->
+  <h2>Video Example</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/5oH9Nr3bKfw" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+  <div id="right-frame">
+    <!-- Remarks or additional content on the right frame -->
+    <h2>Remarks</h2>
+    <p>
+      This is the right frame where additional content or remarks can be displayed.
+      Ut cursus interdum magna nec venenatis. Suspendisse potenti.
+      Praesent vel ligula eget nunc vehicula convallis in quis turpis.
+    </p>
+  </div>
+</body>
+</html>
