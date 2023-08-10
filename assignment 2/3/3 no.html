@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Image Gallery</title>
+</head>
+<body>
+  <div class="gallery">
+    <div class="row">
+      <div class="thumbnail">
+        <img src="1.jpg" alt="Image 1" height="auto" width="20%">
+        <div class="overlay">
+          <img src="1.jpg" alt="Image 1">
+        </div>
+      </div>
+      <!-- Repeat similar structure for other thumbnails -->
+    </div>
+    <div class="row">
+      <div class="thumbnail">
+        <img src="2.jpg" alt="Image 2" height="auto" width="20%">
+        <div class="overlay">
+          <img src="2.jpg" alt="Image 2">
+        </div>
+      </div>
+      <div class="thumbnail">
+        <img src="3.jpg" alt="Image 3" height="auto" width="20%">
+        <div class="overlay">
+          <img src="3.jpg" alt="Image 3">
+        </div>
+      </div>
+      <br>
+      <div class="thumbnail">
+        <img src="4.jpg" alt="Image 4" height="auto" width="20%">
+        <div class="overlay">
+          <img src="4.jpg" alt="Image 4">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-image" src="" alt="Full-sized Image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

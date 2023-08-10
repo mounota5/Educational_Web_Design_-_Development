@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Registration Form</title>
+</head>
+<body>
+  <div class="registration-form">
+    <h1>Registration Form</h1>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required>
+      <span class="validation-instruction">Minimum 8 characters, at least 1 special character (@$!%*#?&)</span>
+
+      <label for="retype-password">Retype Password:</label>
+      <input type="password" id="retype-password" name="retype-password" required>
+
+      <label for="mobile">Mobile:</label>
+      <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+      <span class="validation-instruction">Enter a 10-digit mobile number</span>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>

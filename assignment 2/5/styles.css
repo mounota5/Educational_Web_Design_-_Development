@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.image-box {
+  border: 2px solid yellow;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-box {
+  border: 1px dashed yellow;
+  padding: 20px;
+}
+
+.info-box h2 {
+  margin-top: 0;
+}
+
+.info-box p {
+  margin: 0;
+}
